@@ -19,9 +19,10 @@ def home(request):
         if form.is_valid():
             cd = form.cleaned_data
             subject = cd['subject']
+
             message = cd['message']
 
-            send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [cd['recipient']])
+            send_mail(subject, message, cd['recipient'], [settings.DEFAULT_FROM_EMAIL])
 
             messageSent = True
     else:

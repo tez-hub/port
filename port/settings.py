@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-tdwdk$(x-f%$wkef4!d970$d_3^$%j%45v&2*!hixsf$wu_^f6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'port.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'mwemaport.herokuapp.com']
 
 
 # Application definition

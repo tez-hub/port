@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-tdwdk$(x-f%$wkef4!d970$d_3^$%j%45v&2*!hixsf$wu_^f6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['mwemaport.herokuapp.com', '127.0.0.1']
 
